@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:flutter_cli/flutter_cli.dart';
+import 'package:cli_generator/src/cli_generator_base.dart';
 
 /// [android] platforma nomi
 const android = 'android';
@@ -32,7 +32,7 @@ const help = 'help';
 const String template = 'template';
 
 /// [softCLISample] yaratiladigan template manzili.
-const String softCLISample = 'https://github.com/umidshox99/soft_cli_sample';
+const String softCLISample = 'https://github.com/umidshox99/testApp';
 const String getTemplateURL = softCLISample;
 const String multiModule = '';
 

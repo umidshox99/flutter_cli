@@ -24,15 +24,6 @@ class CLICreate {
       stdout.write(result.stdout);
       stderr.write(result.stderr);
     });
-
-    await changeAppName(
-        appName: appName, platforms: [Platform.android, Platform.ios]);
-    await Process.run('flutter', ['create', '.'],
-            workingDirectory: p.current + '\\' + appName, runInShell: true)
-        .then((value) {
-      stdout.write(value.stdout);
-      stderr.write(value.stderr);
-    });
   }
 
   /// [appName] yaratilayotgan dastur nomi. [oldAppName] eski dastur nomi.
