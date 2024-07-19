@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:cli_generator/src/cli_generator_base.dart';
+import 'package:cli_generator/cli_generator.dart';
 
 /// [android] platforma nomi
 const android = 'android';

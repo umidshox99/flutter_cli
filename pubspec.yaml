@@ -1,4 +1,4 @@
-name: cli_creator
+name: cli_generator
 description: for generating code
 version: 0.0.1
 homepage:
@@ -9,7 +9,7 @@ environment:
 
 
 executables:
-  cli_create:
+  cli_generate:
 
 dependencies:
   path: ^1.9.0
