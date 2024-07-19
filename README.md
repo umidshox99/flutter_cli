@@ -4,7 +4,7 @@ For creating custom flutter project from soft_cli Architecture
 
 ## Installation
 
-If you want to use cli_create on the command line,
+If you want to use cli_generate on the command line,
 install it using `pub global activate`:
 
 ```console
@@ -12,7 +12,7 @@ install it using `pub global activate`:
 ```
 
 
-To update cli_create, use the same `pub global activate` command.
+To update cli_generate, use the same `pub global activate` command.
 
 ## Usage
 
@@ -20,12 +20,12 @@ To update cli_create, use the same `pub global activate` command.
 **a** - for app name
 
 ```console
-> cli_create -a appname -t sample , multiModule or get
+> cli_generate -a appname -t bloc , multiModule or get
 ```
 or
 
 ```console
-> pub global run cli_create -a appname -t sample , multiModule or get
+> pub global run cli_generate -a appname -t sample , multiModule or get
 ```
 
 ```console

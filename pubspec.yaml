@@ -1,6 +1,6 @@
 name: cli_generator
 description: for generating code
-version: 0.0.1
+version: 0.0.5
 homepage:
 
 environment:
